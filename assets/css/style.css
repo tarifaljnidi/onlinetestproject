@@ -1,0 +1,130 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+
+
+body {
+	color: #383749;
+	font-size: 16px;
+	line-height: 1.8;
+	font-family: 'Roboto', sans-serif;
+/* 	  position: relative; */
+
+}
+
+
+img {
+	vertical-align: baseline;
+}
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+a {
+	color: #383749;
+	
+}
+
+a:visited {
+	color: #757686;
+}
+
+a:hover, a:focus, a:active {
+	color: #383749;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover, a:active {
+	outline: 0;
+	list-style: none;
+}
+
+/*--------------------------------------------------------------
+# Helper Utilities
+--------------------------------------------------------------*/
+.flex {
+	display: flex !important;
+	
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+
+.hero-content {
+	background: url("https://technext.github.io/ezuca/images/hero-bg.jpg") no-repeat center;
+	background-size: cover;
+/* 	background-attachment: fixed; */
+/*  position: absolute;  */
+	margin-left:0;
+	
+}
+
+.hero-content-overlay {
+	background: rgba(21, 20, 33, .5);
+	
+}
+
+.hero-content-wrap {
+	height: 820px;
+	padding-top: 13px;
+ 	margin-top:-20px; 
+}
+
+.hero-content-wrap h4 {
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #19c880;
+	letter-spacing: 0.1em;
+}
+
+.hero-content-wrap h2 {
+	margin-top: 12px;
+	font-size: 40px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+	.hero-content-wrap h2 {
+		font-size: 32px;
+	}
+}
+
+.hero-content-wrap p {
+	margin-top: 8px;
+	color: #fff;
+}
+
+.hero-content-wrap .read-more {
+	margin-top: 40px;
+}
+
+.hero-content-wrap .read-more a {
+	display: block;
+	padding: 12px 40px;
+	border: 0px solid #19c880;
+	  border-radius: 15px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	
+}
+
+.hero-content-wrap .read-more a:hover {
+	background: #19c880;
+}
+
+.hero-content-wrap .read-more a {
+	background: blue;
+	
+}
+
